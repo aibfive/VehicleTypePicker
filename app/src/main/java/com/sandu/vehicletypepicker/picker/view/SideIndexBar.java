@@ -47,7 +47,6 @@ public class SideIndexBar extends View {
         textColor = array.getColor(R.styleable.SideIndexBar_textColor, textColor);
         textSelectedColor = array.getColor(R.styleable.SideIndexBar_textSelectedColor, textSelectedColor);
         indexs = (String[])array.getTextArray(R.styleable.SideIndexBar_indexs);
-
         array.recycle();
     }
 
