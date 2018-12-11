@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
@@ -56,6 +57,10 @@ public class SideIndexBar extends View {
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
+        Log.i("GG", "w-->"+w);
+        Log.i("GG", "h-->"+h);
+        Log.i("GG", "oldw-->"+oldw);
+        Log.i("GG", "oldh-->"+oldh);
     }
 
     @Override
