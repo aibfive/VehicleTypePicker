@@ -23,8 +23,11 @@ public class SideIndexBar extends View {
     private int textSize = 14;
     private int textColor = Color.BLACK;
     private int textSelectedColor = Color.RED;
-    private String[] indexs = new String[]{"#", "A", "B", "C", "D", "E", "F", "G", "H",
-            "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+    private String[] indexs = new String[]{
+            "#", "A", "B", "C", "D", "E", "F", "G", "H",
+            "I", "J", "K", "L", "M", "N", "O", "P", "Q",
+            "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+    };
 
     public SideIndexBar(Context context) {
         super(context);
