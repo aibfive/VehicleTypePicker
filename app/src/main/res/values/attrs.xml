@@ -3,13 +3,17 @@
 
     <declare-styleable name="SideIndexBar">
         <attr name="textSize" format="dimension"/>
-        <attr name="textColor" format="color"/>
+        <attr name="textNormalColor" format="color"/>
         <attr name="textSelectedColor" format="color"/>
         <attr name="indexs" format="reference"/>
     </declare-styleable>
 
     <declare-styleable name="VehicleTypePicker">
-        <attr name="sideIndexBarWidth" format="dimension"/>
+        <attr name="indexBarWidth" format="dimension"/>
+        <attr name="indexSize" format="dimension"/>
+        <attr name="indexNormalColor" format="color"/>
+        <attr name="indexSelectedColor" format="color"/>
+        <attr name="indexs" format="reference"/>
     </declare-styleable>
 
 </resources>
