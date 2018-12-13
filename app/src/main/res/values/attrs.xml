@@ -13,7 +13,7 @@
         <attr name="indexSize" format="dimension"/>
         <attr name="indexNormalColor" format="color"/>
         <attr name="indexSelectedColor" format="color"/>
-        <attr name="indexs" format="reference"/>
+
     </declare-styleable>
 
 </resources>

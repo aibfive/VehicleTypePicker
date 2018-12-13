@@ -48,10 +48,10 @@ public class VehicleTypePicker extends FrameLayout{
         indexSize = array.getDimension(R.styleable.VehicleTypePicker_indexSize, indexSize);
         indexNormalColor = array.getColor(R.styleable.VehicleTypePicker_indexNormalColor, indexNormalColor);
         indexSelectedColor = array.getColor(R.styleable.VehicleTypePicker_indexSelectedColor, indexSelectedColor);
-        String[] indexs = (String[])array.getTextArray(R.styleable.VehicleTypePicker_indexs);
+        /*String[] indexs = (String[])array.getTextArray(R.styleable.VehicleTypePicker_indexs);
         if(indexs != null){
             this.indexs = indexs;
-        }
+        }*/
         array.recycle();
     }
 
